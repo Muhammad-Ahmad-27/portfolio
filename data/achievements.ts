@@ -1,3 +1,18 @@
+export type AchievementCategory =
+  | "Olympiad"
+  | "Contest"
+  | "Hackathon"
+  | "Competition";
+
+export interface Achievement {
+  title: string;
+  category: AchievementCategory;
+  result: string;
+  year: number;
+  rank?: string;
+  description?: string;
+}
+
 export const achievements: Achievement[] = [
   {
     title: "Asia Pacific Olympiad in Informatics",
