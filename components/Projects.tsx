@@ -24,6 +24,7 @@ export function Projects() {
               ))}
             </ul>
 
+            {/* Changed from {{ }} to { } below */}
             {project.liveUrl && (
               <div className="flex flex-wrap gap-4">
                 <a
