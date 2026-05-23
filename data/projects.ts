@@ -3,7 +3,7 @@ export interface Project {
   title: string;
   description: string;
   techStack: string[];
-  githubUrl: string;
+  githubUrl?: string;
   liveUrl?: string;
 }
 
@@ -19,6 +19,8 @@ export const projects: Project[] = [
       "Community Platform",
       "Web Development",
     ],
+    githubUrl: "",
+    liveUrl: "",
   },
   {
     id: "epis",
@@ -31,6 +33,8 @@ export const projects: Project[] = [
       "Data Analysis",
       "Education Technology",
     ],
+    githubUrl: "",
+    liveUrl: "",
   },
   {
     id: "codequest",
@@ -43,6 +47,8 @@ export const projects: Project[] = [
       "Problem Setting",
       "Web Development",
     ],
+    githubUrl: "",
+    liveUrl: "",
   },
   {
     id: "repovive",
@@ -55,5 +61,7 @@ export const projects: Project[] = [
       "Feature Research",
       "User Experience",
     ],
+    githubUrl: "",
+    liveUrl: "",
   },
 ];
